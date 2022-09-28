@@ -1,0 +1,33 @@
+@import "variables";
+.card {
+	&:hover {
+		box-shadow: 12px 10px 29px 6px rgba(0, 0, 0, 0.26);
+	}
+	.card-body {
+		background-color: #e9e9e971;
+		.cardSobreNosotros {
+			max-width: 25%;
+		}
+	}
+}
+textarea {
+	resize: none;
+}
+.fa-brands {
+	color: #6a737a;
+	&:hover {
+		color: #565b5f;
+	}
+}
+.parrafos {
+	text-align: justify;
+	font-family: $parrafosFont;
+	font-weight: 500;
+}
+.titulos {
+	font-family: $tittleFont;
+}
+
+.polaroid {
+	font-family: $polaroidFont;
+}
